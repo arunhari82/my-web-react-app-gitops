@@ -12,7 +12,7 @@ metadata:
   annotations:
     openshift.io/host.generated: 'true'
 spec:
-  host: react-app-demo-react-app-demo.apps.cluster-wtnz2.sandbox1209.opentlc.com
+  host: react-app-demo-react-app-demo.apps.cluster-78m9p.78m9p.sandbox3222.opentlc.com
   to:
     kind: Service
     name: react-web-argo-application
