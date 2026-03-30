@@ -1,16 +1,8 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: react-app-demo
+  name: react-app
   namespace: react-app-demo
-  labels:
-    app.kubernetes.io/instance: react-web-argo-application
-    app.kubernetes.io/managed-by: Helm
-    app.kubernetes.io/name: app
-    app.kubernetes.io/version: 1.16.0
-    helm.sh/chart: app-0.1.0
-  annotations:
-    openshift.io/host.generated: 'true'
 spec:
   to:
     kind: Service
