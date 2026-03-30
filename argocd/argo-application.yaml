@@ -8,8 +8,6 @@ metadata:
     argocd/app-name: react-web-argo-application
   annotations:
     argocd/app-name: react-web-argo-application
-  finalizers:
-    - resources-finalizer.argocd.argoproj.io  
 spec:
   project: default
   source:
