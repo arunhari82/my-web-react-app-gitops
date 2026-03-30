@@ -12,7 +12,6 @@ metadata:
   annotations:
     openshift.io/host.generated: 'true'
 spec:
-  host: react-app-demo-react-app-demo.apps.cluster-gmxm6.dynamic.redhatworkshops.io
   to:
     kind: Service
     name: react-web-argo-application
