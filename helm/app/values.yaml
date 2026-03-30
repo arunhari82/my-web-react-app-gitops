@@ -8,7 +8,7 @@ image:
   repository: quay.io/anattama/my-web-react-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: bde044107016956c5f66afd4f58cac8523c3f2e1
+  tag: 6e2ed0bce5db65b8cd01298049cae94a281ef645
 
 imagePullSecrets: []
 nameOverride: ""
